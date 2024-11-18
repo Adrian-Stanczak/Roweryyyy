@@ -15,3 +15,13 @@ def calculate_cost(rental_duration):
     
     print(counting)
 calculate_cost(rental_duration)
+
+def rent_bike(customer_name, rental_duration):
+    customer_name = str(input("Please, tell me what's your name: "))
+
+rent_bike(customer_name, rental_duration)
+
+def save_rental(rental):
+    with open("rentals.json") as f:
+        
+save_rental(rental)
